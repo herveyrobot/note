@@ -46,4 +46,8 @@ git log
 
 git push
 
-
+##modidy README.md
+ git add README.md
+ git commit -m "modify README.md"
+ git log
+ git push
