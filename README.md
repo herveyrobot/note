@@ -26,28 +26,28 @@ cat ~./ssh/id_rsa.pub
 ssh -T git@github.com
 
 ##clone
-git clone git@github.com:username/repository_name.com
-cd repository_name
+git clone git@github.com:username/repository_name.com  
+cd repository_name  
 
-##submit 
-eg:hello_world.php
-###coding
-<?php
-     echo "Hello World"
-?>
+##submit  
+eg:hello_world.php  
+###coding  
+<?php  
+     echo "Hello World"  
+?>  
+  
+git status  
 
-git status
+git add hello_world.php  
+git commit -m "Add hello world script by php"  
 
-git add hello_world.php
-git commit -m "Add hello world script by php"
+###check log  
+git log  
 
-###check log
-git log
+git push  
 
-git push
-
-##modidy README.md
- git add README.md
- git commit -m "modify README.md"
- git log
- git push
+##modidy README.md  
+ git add README.md  
+ git commit -m "modify README.md"  
+ git log  
+ git push  
